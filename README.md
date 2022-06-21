@@ -6,7 +6,7 @@ The output file (search.xml) of the original package was missing to some informa
 ## Install
 
 ``` bash
-$ npm install hexo-generator-search --save
+$ npm install hexo-search-generator --save
 ```
 
 ## Options
