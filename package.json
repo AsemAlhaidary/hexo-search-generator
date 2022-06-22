@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Updated version from hexo-generator-search package",
   "main": "index.js",
+  "directories": {
+    "lib": "./lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +20,10 @@
   ],
   "author": "Asem Alhaidary",
   "license": "ISC",
+  "dependencies": {
+    "nunjucks": "^3.0.1",
+    "utils-merge": "^1.0.0"
+  },
   "bugs": {
     "url": "https://github.com/AsemAlhaidary/hexo-search-generator/issues"
   },
