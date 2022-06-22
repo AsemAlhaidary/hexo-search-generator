@@ -2,12 +2,13 @@
 <search> 
   {% if posts %}
   {% for post in posts.toArray() %}
-    {% if post.indexing == undefined or post.indexing %}
+    {% if post.indexing !== false %}
     <entry>
       <title>{{ post.title }}</title>
       <link href="{{ (url + post.path) | uriencode }}"/>
       <url>{{ (url + post.path) | uriencode }}</url>
       <published>{{ post.date }}</published>
+      <modified>{{ post.updated }}</modified>
       {% if content %}
         <content type="html"><![CDATA[{{ post.content | noControlChars | safe }}]]></content>
       {% endif %}
@@ -31,7 +32,7 @@
   {% endif %}
   {% if pages %}
     {% for page in pages.toArray() %}
-    {% if post.indexing == undefined or post.indexing %}
+    {% if post.indexing !== false %}
     <entry>
       <title>{{ page.title }}</title>
       <link href="{{ (url + page.path) | uriencode }}"/>
