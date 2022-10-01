@@ -1,6 +1,6 @@
 {
   "name": "hexo-search-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Updated version from hexo-generator-search package",
   "main": "index.js",
   "directories": {
