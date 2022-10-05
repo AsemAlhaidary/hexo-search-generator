@@ -1,5 +1,8 @@
 # hexo-search-generator
-This is an updated version of the '[hexo-generator-search](https://github.com/wzpan/hexo-generator-search)' package
+
+## I have created and used this package in my sponsor's [Blog](https://2022.blog.richiebartlett.com/), you can find him at his [Website](https://richiebartlett.com/), also [Github](https://github.com/lorezyra)
+
+This is an updated version of the [hexo-generator-search](https://github.com/wzpan/hexo-generator-search) package
 
 The output file (search.xml) of the original package was missing to some informations about the posts, so I have made this updated version to add the informations that I need in my projects
 
@@ -45,6 +48,28 @@ indexing: false
 ```
 
 Then the generated result will not contain this post or page.
+
+## Output
+
+The output will be like
+```xml
+<entry>
+  <title>Your Online Data Is in Peril &amp; the Blockchain Could Save It</title>
+  <link href="/Science_科学/Technology_技術/Your-Online-Data-Is-In-Peril-the-Blockchain-Could-Save-It/"/>
+  <url>/Science_%E7%A7%91%E5%AD%A6/Technology_%E6%8A%80%E8%A1%93/Your-Online-Data-Is-In-Peril-the-Blockchain-Could-Save-It/</url>
+  <published>Thu Mar 31 2022 06:02:35 GMT+0300</published>
+  <modified>Thu Mar 31 2022 06:02:35 GMT+0300</modified>
+  <content type="html"><![CDATA[Lorem, ipsum dolor sit amet consectetur adipisicing elit.]]></content>
+  <categories>
+    <category>Science_科学</category>
+    <category>Technology_技術</category>
+  </categories>
+  <tags>
+    <tag>Blockchain</tag>
+    <tag>Security</tag>
+  </tags>
+</entry>
+```
 
 ## FAQ
 
