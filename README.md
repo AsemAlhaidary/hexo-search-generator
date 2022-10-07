@@ -1,7 +1,5 @@
 # hexo-search-generator
 
-## I have created and used this package in my sponsor's [Blog](https://2022.blog.richiebartlett.com/), you can find him at his [Website](https://richiebartlett.com/), also [Github](https://github.com/lorezyra)
-
 This is an updated version of the [hexo-generator-search](https://github.com/wzpan/hexo-generator-search) package
 
 The output file (search.xml) of the original package was missing to some informations about the posts, so I have made this updated version to add the informations that I need in my projects
@@ -80,3 +78,6 @@ This plugin is used for generating a xml / json file from your Hexo blog that pr
 ### Where's this file saved to?
 
 After executing `hexo g` you will get the generated result at your public folder.
+
+## Sponsor
+I have created and used this package in my sponsor's [Blog](https://2022.blog.richiebartlett.com/), you can find him at his [Website](https://richiebartlett.com/), also [Github](https://github.com/lorezyra)
