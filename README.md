@@ -80,4 +80,4 @@ This plugin is used for generating a xml / json file from your Hexo blog that pr
 After executing `hexo g` you will get the generated result at your public folder.
 
 ## Sponsor
-I have created and used this package in my sponsor's [Blog](https://2022.blog.richiebartlett.com/), you can find him at his [Website](https://richiebartlett.com/), also [Github](https://github.com/lorezyra)
+I have created and used this package in my sponsor's [Blog](https://blog.richiebartlett.com/), you can find him at his [Website](https://richiebartlett.com/), also [Github](https://github.com/lorezyra)
